@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{ background-color: #EB5766;}
+#container{ background: linear-gradient(to bottom, #5E2329, #AB3F4A);
+            width: 50; display: grid; grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1.5fr;
+            gap: 0px; width: 250px; margin: 0 auto; position: relative; top: 200px; font-family: 'Open Sans', Helvetica, sans-serif;
+            border: 3px #9E3B45 solid;}
+ .key{width: 80px; height: 80px; border: rgba(255, 255, 255, 0.507) 1px solid; text-align: center;
+      color: white;  font-weight: bold; text-align: center; display: flex; align-items: center; justify-content: center; border-collapse: collapse;}
+#formulario{  position: relative; top: 170px; text-align: center;}
+button{
+	background: none;
+	width: 10%;
+    padding: 12px;
+    text-align: center;
+    border: 3px #9E3B45 solid;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.7;
+	font-family: "Open Sans", sans-serif;
+	transition: 0.2s;}
+button:hover{
+    
+    background: #9E3B45;
+    border: white 3px solid;
+}
+
+.select{ border: firebrick 2px solid; background-color: #531e24b2; color: firebrick;}
+    h1{ color: white; font-weight: bold; font-family: 'Open Sans', Helvetica, sans-serif; text-align: center; text-transform: uppercase; margin-top: 60px; height: 1;}
